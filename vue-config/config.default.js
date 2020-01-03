@@ -9,5 +9,6 @@ module.exports = {
     workboxOptions: {
       swSrc: path.join('public', 'service-worker.js')
     }
-  }
+  },
+  lintOnSave: false
 }

@@ -1,8 +1,7 @@
 <template>
   <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
-    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg" />
-
+    <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg"/>
     <a
       rel="noopener"
       class="documentation-link"
@@ -29,6 +28,16 @@ export default {
           id: 'desc'
         }
       ]
+    }
+  },
+  data(){
+    return {
+      options: {
+        licenseKey: 'YOUR_KEY_HEERE',
+        menu: '#menu',
+        anchors: ['page1', 'page2', 'page3'],
+        sectionsColor: ['#41b883', '#ff5f45', '#0798ec']
+      },
     }
   },
   computed: mapState('app', ['appTitle'])
