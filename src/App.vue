@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <nav-bar></nav-bar>
+    <!-- <nav-bar></nav-bar> -->
     <div class="main-wrapper">
       <router-view />
     </div>
@@ -73,19 +73,19 @@ body {
       z-index: 1000;
     }
 
-    .main-wrapper {
-      margin-top: 3.6rem;
-      padding: 20px;
+    // .main-wrapper {
+    //   margin-top: 3.6rem;
+    //   padding: 20px;
 
-      .page-wrapper {
-        width: 60%;
-        margin: auto;
+    //   .page-wrapper {
+    //     width: 60%;
+    //     margin: auto;
 
-        @media screen and (max-width: 1000px) {
-          width: 100%;
-        }
-      }
-    }
+    //     @media screen and (max-width: 1000px) {
+    //       width: 100%;
+    //     }
+    //   }
+    // }
   }
 }
 </style>

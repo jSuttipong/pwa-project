@@ -13,9 +13,10 @@ import '@/firebase/authentication'
 import '@/misc/handle-apple-install-prompt'
 import 'pwacompat'
 
-//  CSS
+// CSS
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './theme/animate.css'
 
 Vue.config.productionTip = false
 

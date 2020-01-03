@@ -1,5 +1,5 @@
 <template>
-  <div class="page-wrapper">
+  <!-- <div class="page-wrapper">
     <h1 class="home-page-title">{{ appTitle }}</h1>
     <img alt="logo-bento" class="logo" src="@/assets/img/bento-starter.svg"/>
     <a
@@ -9,6 +9,15 @@
       href="https://bento-starter.netlify.com/"
       >Documentation →</a
     >
+  </div>-->
+  <div>
+    <full-page ref="fullpage" :options="options" id="fullpage">
+      <div class="section" id="section1">
+        <div class="fp-bg">
+        </div>
+      </div>
+      <div class="section"></div>
+    </full-page>
   </div>
 </template>
 
@@ -30,14 +39,13 @@ export default {
       ]
     }
   },
-  data(){
+  data() {
     return {
       options: {
         licenseKey: 'YOUR_KEY_HEERE',
         menu: '#menu',
-        anchors: ['page1', 'page2', 'page3'],
         sectionsColor: ['#41b883', '#ff5f45', '#0798ec']
-      },
+      }
     }
   },
   computed: mapState('app', ['appTitle'])
@@ -74,5 +82,13 @@ export default {
     width: fit-content;
     font-weight: 500;
   }
+}
+#section1 .fp-bg {
+  background: url("../assets/img/bannerTes.jpg");
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: 100%;
+  padding: 30px;
 }
 </style>
