@@ -19,3 +19,10 @@ const config = {
 }
 
 firebase.initializeApp(config)
+
+// var database = firebase.database();
+
+// var messaging = firebase.messaging()
+// messaging.usePublicVapidKey(
+//   'BN6pgm3Rl9t0j0UUfgJyAMUSKA2lNT2hKIERcDVmv9475qq8x8lhoO7-NEfjYYvjDH3VsKnBzAebqAAo6W6WLco'
+// )

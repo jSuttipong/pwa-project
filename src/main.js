@@ -2,6 +2,10 @@ import Vue from 'vue'
 
 import BootstrapVue from 'bootstrap-vue'
 import VueFullPage from 'vue-fullpage.js'
+import VueAdaptiveNetwork from 'vue-adaptive-components/network';
+import VueAdaptiveSaveData from 'vue-adaptive-components/save-data';
+import VueAdaptiveMemory from 'vue-adaptive-components/hardware-concurrency';
+import VueAdaptiveHardwareConcurrency from 'vue-adaptive-components/memory';
 
 import App from './App.vue'
 import router from './router'
@@ -12,6 +16,9 @@ import '@/firebase/init'
 import '@/firebase/authentication'
 import '@/misc/handle-apple-install-prompt'
 import 'pwacompat'
+// import '@/firebase/firebase-messaging-sw'
+// import '../public/firebase-messaging-sw'
+// import '../firebase-messaging-sw'
 
 // CSS
 import 'bootstrap/dist/css/bootstrap.css'

@@ -27,6 +27,7 @@
     "pwacompat": "^2.0.9",
     "register-service-worker": "^1.6.2",
     "vue": "^2.6.10",
+    "vue-adaptive-components": "0.0.5",
     "vue-fullpage.js": "^0.1.5",
     "vue-head": "^2.1.1",
     "vue-router": "^3.0.6",
